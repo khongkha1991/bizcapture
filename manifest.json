@@ -1,0 +1,72 @@
+{
+  "name": "BizCapture",
+  "short_name": "BizCapture",
+  "description": "Expense & Revenue Tracker — K&R Thailand Shop",
+  "start_url": "/bizcapture/index.html",
+  "scope": "/bizcapture/",
+  "display": "standalone",
+  "background_color": "#080d1a",
+  "theme_color": "#080d1a",
+  "orientation": "portrait",
+  "lang": "th",
+  "categories": [
+    "finance",
+    "business"
+  ],
+  "share_target": {
+    "action": "/bizcapture/index.html",
+    "method": "POST",
+    "enctype": "multipart/form-data",
+    "params": {
+      "title": "title",
+      "text": "text",
+      "url": "url",
+      "files": [
+        {
+          "name": "file",
+          "accept": [
+            "image/*"
+          ]
+        }
+      ]
+    }
+  },
+  "icons": [
+    {
+      "src": "https://khongkha1991.github.io/bizcapture/icon-48.png",
+      "sizes": "48x48",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "https://khongkha1991.github.io/bizcapture/icon-72.png",
+      "sizes": "72x72",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "https://khongkha1991.github.io/bizcapture/icon-96.png",
+      "sizes": "96x96",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "https://khongkha1991.github.io/bizcapture/icon-144.png",
+      "sizes": "144x144",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "https://khongkha1991.github.io/bizcapture/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "https://khongkha1991.github.io/bizcapture/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
